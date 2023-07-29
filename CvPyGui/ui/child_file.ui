@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>385</width>
+    <height>269</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="file_ok">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>230</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>音视频格式选择</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>5</y>
+     <width>361</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="show_file_path_label">
+        <property name="styleSheet">
+         <string notr="true">font: 75 9pt &quot;微软雅黑&quot;;
+font: 75 9pt &quot;微软雅黑&quot;;</string>
+        </property>
+        <property name="text">
+         <string>当前文件保存路径:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QLabel" name="file_path_label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>C:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="choice_file_path_button">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>选择文件保存路径</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>音频格式</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_mp3">
+      <property name="text">
+       <string>mp3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_wav">
+      <property name="text">
+       <string>wav</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>130</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>视频格式</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_mp4">
+      <property name="text">
+       <string>mp4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QRadioButton" name="radioButton_avi">
+      <property name="text">
+       <string>avi</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

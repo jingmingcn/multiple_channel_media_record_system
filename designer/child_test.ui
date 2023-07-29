@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>310</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>行为</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>371</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <spacer name="horizontalSpacer_10">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>30</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QComboBox" name="tab1_combobox">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>30</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_9">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="tab1_label">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>256</width>
+            <height>144</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>256</width>
+            <height>144</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_11">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>面部</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>371</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <spacer name="horizontalSpacer_15">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <item>
+             <spacer name="horizontalSpacer_16">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>30</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QComboBox" name="tab1_combobox_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_17">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>30</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_18">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="tab1_label_3">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>256</width>
+            <height>144</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>256</width>
+            <height>144</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_19">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>眼睛</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>371</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <spacer name="horizontalSpacer_20">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_7">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_9">
+            <item>
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>30</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QComboBox" name="tab1_combobox_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>30</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_21">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QLabel" name="tab1_label_4">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>256</width>
+            <height>144</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>256</width>
+            <height>144</height>
+           </size>
+          </property>
+          <property name="text">
+           <string>TextLabel</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_22">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>麦克风</string>
+    </attribute>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>371</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_13">
+      <item>
+       <spacer name="horizontalSpacer_31">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_13">
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_14">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <spacer name="horizontalSpacer_32">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>31</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QComboBox" name="tab1_combobox_7">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="minimumSize">
+               <size>
+                <width>160</width>
+                <height>0</height>
+               </size>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_33">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Maximum</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>31</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_34">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Minimum</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>256</width>
+              <height>55</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QProgressBar" name="progressBar">
+          <property name="value">
+           <number>0</number>
+          </property>
+          <property name="textVisible">
+           <bool>false</bool>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_36">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>60</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_35">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="OK">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>280</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
